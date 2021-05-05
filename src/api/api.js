@@ -1,6 +1,6 @@
 const axios = require('axios')
 
-const baseUrl = "http://127.0.0.1:7000/bhavcopy"
+const baseUrl = "https://dry-retreat-36402.herokuapp.com/bhavcopy"
 
 export default class API {
    static searchName(query) {
