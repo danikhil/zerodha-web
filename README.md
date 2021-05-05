@@ -19,11 +19,13 @@ yarn build
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Hosting
-heroku login <br />
-heroku create <br />
-heroku buildpacks:add heroku/nodejs <br />
-heroku buildpacks:add https://github.com/heroku/heroku-buildpack-static <br />
-git push heroku master:main <br />
+```
+heroku login
+heroku create 
+heroku buildpacks:add heroku/nodejs
+heroku buildpacks:add https://github.com/heroku/heroku-buildpack-static
+git push heroku master:main
+```
 
 ### Server Backend Reference
 https://github.com/danikhil/zerodha-server
